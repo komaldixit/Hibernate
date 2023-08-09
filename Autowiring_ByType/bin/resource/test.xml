@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean class="bean.Engine" id="e">
+		<property name="Cc" value="600cc"></property></bean>
+	<bean class="bean.Car" id="c" autowire="byType">
+		<property name="name" value="Tata Nano"></property>
+	</bean>
+</beans>
